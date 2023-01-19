@@ -1,3 +1,5 @@
-def call() {
-    sh "echo hello world"
+def hello() {
+    stage("test") {
+        echo "Hello World"
+    }
 }
